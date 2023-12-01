@@ -13,7 +13,6 @@ body{
 .simple_things{
     .st-container{
         display: flex;
-        border: 1px solid #7875FE;
         justify-content: space-between;
         .st-things-text{
             width: 445px;
@@ -34,10 +33,41 @@ body{
         }
     }
 }
+.v1-v3-papers{
+    .v1-v3-papers__container{
+        padding: 90px 0;
+        background: #EBEBEB;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+    .vx-paper{
+        flex-wrap: wrap;
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .vx-paper__text{
+            width: 160px;
+        }
+        img{
+            width: 160px;
+        }
+    }
+    }
+    
+}
 h1{
     color: #4C5866;
     font-size: 60px;
     line-height: 100%;
+}
+h3{
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
 }
 .text{
     color: #85859B;
@@ -51,4 +81,10 @@ button{
     color: #7875FE;
     font-size: 20px;
     line-height: normal;
+}
+hr {
+    background: #C0C0C0;
+    height: 1px;
+    width: 100%;
+    color: #333;
 }
